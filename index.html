@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- link CSS  -->
+    <link rel="stylesheet" href="style.css">
+   <!-- link Font  -->
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <!--  link font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <!-- link Javascript  -->
+   <script src="app.js" defer></script>
+    <title>Boucherie Rasselle || BOUSBECQUE</title>
+<body>
+<header>
+    <img src="./img/LOGO.png" alt="logo" class="hero-logo">
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+          <li><a href="#menu" onclick="toggleMenu();">Nos Produits</a></li>
+        <li><a href="#contact" onclick="toggleMenu();"> Adresse & Contact</a></li>
+        <a href="#" class="btn-reserve"onclick="toggleMenu();">03.20.23.58.88</a>
+    </ul>
+</header>
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2 class="title-section" id="boucherie">Boucherie</h2>
+        <h2 id="rasselle">RASSELLE</h2>
+        <p style="color: #fff;">CHARCUTIER - TRAITEUR</p>
+        <a href="#menu" class="btn1">NOS PRODUITS</a>
+        <a href="#carte" class="btn2">51, rue de Wervicq - 59166 BOUSBECQUE</a>
+    </div>
+</section>
+
+<!-- <section class="menu" id="menu"> -->
+      <!-- title -->
+      <!-- <div class="title" >
+        <br>
+        <br>
+        <h2>Découvrez notre sélection de la Boucherie Rasselle</h2>
+        <p >NOTRE GAMME DE PRODUITS EST AUSSI VARIÉE QUE SAVOUREUSE</p>
+        <div class="underline"></div>
+      </div> -->
+      <!-- filter buttons -->
+      
+      <!-- <div class="btn-container">
+        <button class="filter-btn" type="button" data-id="Nos produits" >Nos produits</button>
+        <button class="filter-btn" type="button" data-id="boucherie">
+          boucherie
+        </button>
+        <button class="filter-btn" type="button" data-id="charcuterie">charcuterie</button>
+        <button class="filter-btn" type="button" data-id="Traiteur">
+          Traiteur
+        </button>
+        <button class="filter-btn" type="button" data-id="Nos buffets & plateaux">Nos buffets & plateaux</button>
+      </div>
+      </section> -->
+      <!-- liste des produits + js -->
+      
+      <!-- <div class="section-center">
+      </div> -->
+      <!--  fin de la liste des produits + js -->
+
+
+
+
+<section class="apropos" id="apropos">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte"><span>A</span> Propos</h2>
+            <h2>LA BOUCHERIE, UNE PASSION</h2>
+            <p>Théo Rasselle, fort déjà de presque dix ans d’expérience dans le métier. il a en effet commencé en apprentissage en 2013 : il a obtenu un CAP boucherie chez Rigaud, à Wambrechies, puis un CAP et un BP charcutier traiteur à la maison Evrard, où il est resté plusieurs années.<br>
+                <br>
+« J’ai toujours eu envie d’avoir ma propre affaire, explique Théo Rasselle. J’ai contacté la chambre des métiers », qui lui a présenté les offres de reprise qu’elle avait. Le voilà à Bousbecque dans une boucherie plus que centenaire. « J’espère être là les cinquante prochaines années ! »
+<br><br>
+<p style="font-size:10px; font-style:italic">Source Nord Eclair et La Voix du Nord, du 13 Octobre 2021</p>
+            </p>
+        </div>
+
+      <div class="contenu">
+        <div class="box">
+            <div class="imbox-apropos">
+                 <img src="./img/apropos2.jpg" alt="photo-theo" class="photo-theo" >
+            </div>
+        </div>
+        </div>  
+</section>
+<section class="menu">
+    <div class="titre">
+        <h2 class="titre-texte"><span>N</span>os services</h2>
+        <p class="text-serv">Voici nos prestations avec un excellent service, une viande de qualité supérieure et une fabrication artisanale</p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="../img/boucherie1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Boucherie</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./img/charcuterie1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Charcuterie</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./img/ensemble.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Traiteur</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c4.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Epicerie fine & Spiritueux</h3>
+            </div>
+        </div>    
+</section>
+
+    <section id="contact" class="contact"></section> 
+        <h2 style="text-align:center" class="titre-texte"><span>A</span>dresse & Contact</h2>
+            <div class="form_contact">
+                <!-- <h3 style="color:white;font-size: 30px;">HEURES D'OUVERTURE<br></h3> -->
+                <i style="color:#fff; font-size:25px;" class="fa-solid fa-phone"><span style="color:orange"> 03.20.23.58.88</span></i><br><br>
+<p style="color:white; font-size: x-large; " ><span style="color:orange">Lundi :</span> Fermé <br>
+<span style="color:orange">Mardi à vendredi :</span><br>
+08h00 - 12h30 / 15h00 - 18h30<br>
+<span style="color:orange">Samedi :</span> 08h00 - 12h30 <br>
+<span style="color:orange">Dimanche :</span> Fermé​</p>
+            </div>
+   
+            <div class="localisation">
+                <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162033.24590882595!2d2.8855300589140076!3d50.61282110492908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32daf14135ccf%3A0xc8582e3b430e9865!2sBoucherie%20P.%20Berland!5e0!3m2!1sfr!2sfr!4v1666346330354!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+     <div class="facebook">
+    <p style="color:#fff">Suivez nous également sur Facebook :<br><span style="color:white; font-weight: 900 ;font-size:large;text-decoration: underline"> Boucherie Rasselle à Bousbecque</span><br><br>
+
+<!-- onglet facebook pied de page -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v15.0" nonce="hfJRDb3X"></script>
+<div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100086900260878" data-tabs="publications" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100086900260878" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100086900260878">Boucherie Rasselle</a></blockquote></div>
+ </div>
+
+<!-- info pub cb -->
+ <div class="cb">
+     <p style="color:#fff">Paiement par carte bancaire à partir de 15 €</p>
+ </div>
+
+ <footer class="footer">
+      <div class="section-center-footer footer-section">
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-facebook social-icon"></i>
+          </a>
+        </div>
+        <h4 class="footer-text">
+          &copy;2022 <span class="company">Boucherie Rasselle</span> - All rights
+          reserved
+        </h4>
+      </div>
+    </footer>
+    
+<!-- JS menu Toogle -->
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const menuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     } 
+ </script>
+ 
+</body>
+</html>
